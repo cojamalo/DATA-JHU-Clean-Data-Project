@@ -1,11 +1,11 @@
 
-PART I: SUMMARY OF EXPERIMENTAL SETUP AND SOURCE DATASET (From UCI HAR Dataset Readme)
-==================================================================
-###If you are familiar with the Human Activity Recognition Study, please skip to PART II for variable explanation.
+##PART I: SUMMARY OF EXPERIMENTAL SETUP AND SOURCE DATASET (From UCI HAR Dataset Readme)
+
+####If you are familiar with the Human Activity Recognition Study, please skip to PART II for variable explanation.
 
 The following are excerpts from the source dataset that explain the experimental setup and where the variables come from:
 
-##Human Activity Recognition Using Smartphones Dataset
+###Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -22,7 +22,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 - Features are normalized and bounded within [-1,1].
 
-##Feature Selection 
+###Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -54,8 +54,8 @@ These signals were used to estimate variables of the feature vector for each pat
 More info can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-PART II: SUMMARY OF VARIABLES PRESENT IN THE OUTPUT TABLE AFTER RUN_ANALYSIS.R IS EXECUTED 
-=================
+##PART II: SUMMARY OF VARIABLES PRESENT IN THE OUTPUT TABLE AFTER RUN_ANALYSIS.R IS EXECUTED 
+
 | Variable Name  |  Position   | Values or Explanation 													       |
 | -------------- |:-----------:| -----------------------------------------------------------------------------:|
 | subject_id	 |	 	1	   |  The code represents which subject out of the 30 possible in the experiment 					 				  was being observed. The nine subjects with subject_id 2,4,9,10,12,13,18,20,24 are from the "test" group. The twenty-one subjects with subject_id 1,3,5-8,11,14-17,19,21-23,25-30 are from the "training" group. | 
