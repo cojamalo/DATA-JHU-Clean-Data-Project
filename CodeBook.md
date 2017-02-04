@@ -34,6 +34,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 1. List of Features
+
   *tBodyAcc-XYZ
   *tGravityAcc-XYZ
   *tBodyAccJerk-XYZ
