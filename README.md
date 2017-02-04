@@ -24,14 +24,14 @@ Source the run_analysis.R script in your working directory that also contains th
 I have also commented the code itself in run_analysis.R, so feel free to follow along by looking at its contents.
 
 The generateDataset function creates a complete table from the subject, Y_test, and X_test files in both the test and training data by:
-- Imports the subject codes from the subject file as a factor vector
-- Imports the activity codes as a factor vector with the proper names instead of codes using ./activity_labels.txt as reference (plyr). This step satisfies homework requirement 3: Use descriptive activity names to name the activities in the data set
-- Imports the main dataset using the features table to rename columns of the dataset (data.table). This step satisfies homework requirement 4: Appropriately label the data set with descriptive variable names.
-- Creates a complete table for all test values using cbind on the imported data
+- Importing the subject codes from the subject file as a factor vector
+- Importing the activity codes as a factor vector with the proper names instead of codes using ./activity_labels.txt as reference (plyr). This step satisfies homework requirement 3: Use descriptive activity names to name the activities in the data set
+- Importing the main dataset using the features table to rename columns of the dataset (data.table). This step satisfies homework requirement 4: Appropriately label the data set with descriptive variable names.
+- Creating a complete table for all test values using cbind on the imported data
   
-The function is called for both the test and training datasets:
-- Called with correct parameters for test data, generating a complete table for the 9 subjects of the "Test" data.
-- Called with correct parameters for training data, generating a complete table for the 21 subjects of the "Train" data.
+The script calls this function for both the test and training datasets:
+- Calling it with correct parameters for test data, generating a complete table for the 9 subjects of the "Test" data.
+- Calling it with correct parameters for training data, generating a complete table for the 21 subjects of the "Train" data.
 See lines 31 and 34 of run_analysis.R for the exact parameter values used.
 
 The script then continues by:
