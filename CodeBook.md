@@ -36,6 +36,7 @@ These signals were used to estimate variables of the feature vector for each pat
 1. List of Features
 
   *tBodyAcc-XYZ
+  
   *tGravityAcc-XYZ
   *tBodyAccJerk-XYZ
   *tBodyGyro-XYZ
