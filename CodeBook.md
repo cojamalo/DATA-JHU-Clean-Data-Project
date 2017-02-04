@@ -1,10 +1,11 @@
 
 PART I: SUMMARY OF EXPERIMENTAL SETUP AND SOURCE DATASET (From UCI HAR Dataset Readme)
 ==================================================================
-##If you are familiar with the Human Activity Recognition Study, please skip to PART II for variable explanation.
-###The following are excerpts from the source dataset that explain the experimental setup and where the variables come from:
+###If you are familiar with the Human Activity Recognition Study, please skip to PART II for variable explanation.
 
-####Human Activity Recognition Using Smartphones Dataset
+The following are excerpts from the source dataset that explain the experimental setup and where the variables come from:
+
+##Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -75,7 +76,7 @@ PART II: SUMMARY OF VARIABLES PRESENT IN THE OUTPUT TABLE AFTER RUN_ANALYSIS.R I
 | Variable Name  |  Position   | Values or Explanation 													       |
 | -------------- |:-----------:| -----------------------------------------------------------------------------:|
 | subject_id	 |	 	1	   |  The code represents which subject out of the 30 possible in the experiment 					 				  was being observed. The nine subjects with subject_id 2,4,9,10,12,13,18,20,24 are from the "test" group. The twenty-one subjects with subject_id 1,3,5-8,11,14-17,19,21-23,25-30 are from the "training" group. | 
-| activity 		 |	    2	   |  Which of the six possible activities that were being observed. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, or STANDING LAYING   |
+| activity 		 |	    2	   |  Which of the six possible activities that were being observed: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, or STANDING LAYING   |
 |tBodyAcc-mean()-X, tBodyAcc-mean()-Y, etc |  3-66	 | The remaining variables refer to the features of the sensors that were measured. The variable names are coded in parts such as FIRST-SECOND()-THIRD. The FIRST part refers to which specific feature of the sensors was measured such as tBodyAcc. The SECOND part refers to the type of statistic applied to the value for that feature, either mean() or std(), since my script only selected the mean value or standard deviation of the value. The THIRD part refers what plane in 3D space the sensor measured, either X, Y or Z. The actual numbers in these columns are derived from normalized and bounded displacement values from -1 to 1 (unitless). After running my script, both the -mean() and -std() values where grouped by activity type and subject id and then averaged together. Thus, the numbers in the output data table represent the mean value of the original displacement values over all instances for that subject-activity pairing.|
 
 
