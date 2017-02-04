@@ -1,7 +1,8 @@
 
 PART I: SUMMARY OF EXPERIMENTAL SETUP AND SOURCE DATASET (From UCI HAR Dataset Readme)
 ==================================================================
-###The following are excerpts from the source dataset that explain the experimental setup and where the ###variables come from:
+##If you are familiar with the Human Activity Recognition Study, please skip to PART II for variable explanation.
+###The following are excerpts from the source dataset that explain the experimental setup and where the variables come from:
 
 ####Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -32,22 +33,39 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 -tBodyAcc-XYZ
+
 -tGravityAcc-XYZ
+
 -tBodyAccJerk-XYZ
+
 -tBodyGyro-XYZ
+
 -tBodyGyroJerk-XYZ
+
 -tBodyAccMag
+
 -tGravityAccMag
+
 -tBodyAccJerkMag
+
 -tBodyGyroMag
+
 -tBodyGyroJerkMag
+
 -fBodyAcc-XYZ
+
 -fBodyAccJerk-XYZ
+
 -fBodyGyro-XYZ
+
 -fBodyAccMag
+
 -fBodyAccJerkMag
+
 -fBodyGyroMag
+
 -fBodyGyroJerkMag
+
 (abridged).....
 More info can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
