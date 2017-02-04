@@ -32,11 +32,16 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
 
 1. List of Features
 
   *tBodyAcc-XYZ
-  
+
   *tGravityAcc-XYZ
   *tBodyAccJerk-XYZ
   *tBodyGyro-XYZ
