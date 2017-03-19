@@ -49,7 +49,7 @@ When the script completes, your workspace will contain the variables to the full
 
 In addition, your workspace will now contain a file, "output.txt", which is the fully processed data equivalent to summed.
 
-Project coded by Connor Lenio ©2016. 
+Project coded by Connor Lenio ©2017. 
 
 
 
